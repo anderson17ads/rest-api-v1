@@ -5,10 +5,9 @@ use App\Config\Database;
 
 class UsersController
 {
-	public function __construct($request, $response)
+	public function __construct($request)
 	{
 		$this->request  = $request;
-		$this->response = $response;
 	}
 
 	public function all()
